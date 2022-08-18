@@ -4,9 +4,10 @@
     --title-color: #212121;
     --accent-color: #2196f3;
     --footer-bgc-color: #2f303a;
+    --footer-link-color: #ffffff99;
     --hiro-button-hover: #188CE8;
     --light-grey-color: #f5f4fa;
-    --header-logo-color: #000;
+    --header-logo-color: #000; 
 }
 
 body {
@@ -86,7 +87,8 @@ body {
             font-weight: 900;
             line-height: 1.36;
             text-align: center;
-            letter-spacing: 0.06em;}
+            letter-spacing: 0.06em;
+            text-transform: uppercase;}
         
         .hiro-button {
             cursor: pointer;
@@ -104,7 +106,7 @@ body {
             background-color: var(--hiro-button-hover);}
         
         .team {
-            background-color: var(--light-grey-color);}
+            background-color: var(--white-color);}
         
         .caption {
             color: var(--title-color);
@@ -137,14 +139,21 @@ body {
         
         .footer-link {
             text-decoration: none;
-            color: var(--text-color);
+            color: var(--footer-link-color);
             font-size: 14px;
             line-height: 1.71;
             letter-spacing: 0.03em;}
 
-        .footer-link:hover {
+        .footer-link .footer-span {
             color: var(--white-color);}
 
+        .footer-link:hover,
+        .footer-link:focus,
+        .footer-link .footer-span:focus,
+        .footer-link .footer-span:hover {
+            color: var(--accent-color);}
+
+            
         .footer-logo {
             text-decoration: none;
             font-family: Raleway, sens-serif;
