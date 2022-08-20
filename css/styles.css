@@ -106,7 +106,7 @@ body {
             background-color: var(--hiro-button-hover);}
         
         .team {
-            background-color: var(--white-color);}
+            background-color: var(--light-grey-color);}
         
         .caption {
             color: var(--title-color);
@@ -118,7 +118,7 @@ body {
         
         .title {
             color: var(--title-color);
-            font-size: 14px;
+            font-size: 18px;
             font-weight: 700;
             line-height: 1.14;
             letter-spacing: 0.03em;}
@@ -127,7 +127,7 @@ body {
             text-transform: uppercase;}
         
         .text {
-            font-size: 14px;
+            font-size: 16px;
             line-height: 1.71;
             letter-spacing: 0.03em;}
         
